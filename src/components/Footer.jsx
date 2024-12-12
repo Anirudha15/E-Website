@@ -26,7 +26,7 @@ const Footer = () => {
                                 <NavLink to="/contact">Contact</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/">Privacy Policy</NavLink>
+                                <NavLink to="/policy">Privacy Policy</NavLink>
                             </li>
                         </ul>
                     </div>

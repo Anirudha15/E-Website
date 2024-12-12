@@ -20,6 +20,7 @@ const Navbar = () => {
       lable: "Contact",
       link: "/contact",
     },
+    
   ];
   return (
     <section className="bg-[#7DC08E] px-10">
