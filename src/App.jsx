@@ -11,6 +11,9 @@ import Login from './pages/Login'
 import Policy from './pages/Policy'
 import NoPage from './pages/NoPage'
 import ProductDetail from './pages/ProductDetail'
+import Profile from './pages/Profile'
+import Register from './pages/Register'
+import MyOrders from './pages/MyOrders'
 const App=()=> {
   
 
@@ -24,7 +27,10 @@ const App=()=> {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/register' element={<Register/>}/>
         <Route path='/policy' element={<Policy/>}/>
+        <Route path='/my-orders' element={<MyOrders/>}/>
         <Route path='*' element={<NoPage/>}/>
         <Route/>
       </Routes>

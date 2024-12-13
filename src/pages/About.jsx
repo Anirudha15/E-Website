@@ -4,9 +4,11 @@ import Layout from "../components/Layout"
 const About = () => {
   return (
    <Layout>
-      <h1>
-        About
-      </h1>
+      <section className="py-16 px-10 min-h-[100vh]">
+        <div>
+          About
+        </div>
+      </section>
    </Layout>
   )
 }

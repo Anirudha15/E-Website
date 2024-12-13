@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => {
   return (
     <div className="p-3 hover:scale-105 duration-1000 mx-2 flex justify-center items-center flex-col cursor-pointer  w-full rounded-md overflow-hidden shadow-lg">
-      <Link>
+      <Link to={`/product-detail/${product._id}`}>
         <div className="h-[200px] flex justify-center items-center p-5">
           <img
             className="h-full"
