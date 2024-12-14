@@ -14,6 +14,9 @@ import ProductDetail from './pages/ProductDetail'
 import Profile from './pages/Profile'
 import Register from './pages/Register'
 import MyOrders from './pages/MyOrders'
+import Cart from './pages/Cart'
+import Checkout from './pages/Checkout'
+import ConfirmOrder from './pages/ConfirmOrder'
 const App=()=> {
   
 
@@ -30,9 +33,11 @@ const App=()=> {
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/policy' element={<Policy/>}/>
+        <Route path='/cart' element={<Cart/>}/>
         <Route path='/my-orders' element={<MyOrders/>}/>
         <Route path='*' element={<NoPage/>}/>
-        <Route/>
+        <Route path='/checkout' element={<Checkout/>}/>
+        <Route path='/confirm-order' element={<ConfirmOrder/>}/>
       </Routes>
       {/* <Footer/> */}
        
